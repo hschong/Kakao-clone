@@ -1,0 +1,36 @@
+.header__indicator_area {
+    background-color: brown;
+    color: white;
+    padding: 5px 10px 15px 10px;
+}
+
+.header__indicator_area .header__top, 
+.header__indicator_area .header__bottom {
+    display: flex;
+    justify-content: space-between;
+} 
+
+.header__indicator_area .header__top {
+    margin-bottom: 15px;
+    font-size: 13px;
+}
+
+.header__indicator_area .header__bottom {
+    margin: 0 10px;
+}
+
+.header__indicator_area .header__column {
+    width: 33%;
+}
+
+.header__indicator_area .header__column:last-child {
+    text-align: right;
+}
+
+.header__indicator_area .header__column:nth-child(2) {
+    text-align: center;
+}
+
+.header__indicator_area .header__number {
+    color: yellow;
+}
