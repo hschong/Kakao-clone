@@ -1,4 +1,4 @@
-.header__indicator_area {
+.header__area {
     background-color: brown;
     color: white;
     padding: 5px 10px 15px 10px;
@@ -7,33 +7,39 @@
     top: 0;
 }
 
-.header__indicator_area .header__top, 
-.header__indicator_area .header__bottom {
+.header__area .header__indicator, 
+.header__area .header__title {
     display: flex;
     justify-content: space-between;
 } 
 
-.header__indicator_area .header__top {
+.header__area .header__indicator {
     margin-bottom: 15px;
     font-size: 13px;
 }
 
-.header__indicator_area .header__bottom {
+.header__area .header__title {
     margin: 0 10px;
 }
 
-.header__indicator_area .header__column {
+.header__area .header__column {
     width: 33%;
 }
 
-.header__indicator_area .header__column:last-child {
+.header__area .header__title .header__column:first-child {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header__area .header__column:last-child {
     text-align: right;
 }
 
-.header__indicator_area .header__column:nth-child(2) {
+.header__area .header__column:nth-child(2) {
     text-align: center;
 }
 
-.header__indicator_area .header__number {
+
+
+.header__area .header__number {
     color: yellow;
 }
