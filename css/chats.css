@@ -1,15 +1,10 @@
 .chats .chats__list {
     border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
 }
 
 .chats__list .chats__chat {
     padding: 5px 10px;
     border-bottom: 1px solid #ebebeb;
-}
-
-.chats__list .chats__chat:last-child {
-    border: none;
 }
 
 .chats__chat .chat__content img {
