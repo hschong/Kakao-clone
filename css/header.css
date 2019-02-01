@@ -5,6 +5,7 @@
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 2;
 }
 
 .header__area .header__indicator, 
@@ -38,8 +39,10 @@
     text-align: center;
 }
 
-
-
 .header__area .header__number {
     color: yellow;
+}
+
+.header__title a {
+    color: white;
 }
