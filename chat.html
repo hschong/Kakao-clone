@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +10,8 @@
     <title>Chat</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-
-<body>
-    <header class="header__area">
+<body class="chat__body">
+    <header class="header__area chat-header">
         <div class="header__indicator">
             <div class="header__column">
                 <!-- plane icon -->
@@ -47,33 +45,32 @@
             </div>
         </div>
     </header>
-    <main class="chat">
-        <div class="date_divider">
-            <span class="date_divider_text">Wednesday, January 17, 2019</span>
+    <main class="chat__main">
+        <div class="chat__date_divider">
+            <span class="chat__date_divider_text">Wednesday, January 17, 2019</span>
         </div>
-        <div class="chat__outgoing_message">
-            <span class="message_time">17:58</span>
-            <span class="message_body">Hello! This is a test message.</span>
+        <div class="chat__message chat__sent_message">
+            <span class="chat__message_time">17:58</span>
+            <span class="chat__message_body">Hello! This is a test message.</span>
         </div>
-        <div class="chat__incoming_message">
-            <img src="images/avatar.jpg" class="message_avatar">
-            <div class="chat__incoming_message_center">
-                <h3 class="chat__message_user">Yuna</h3>
-                <span class="message_body">And this is an answer.</span>
+        <div class="chat__message chat__received_message">
+            <img src="images/avatar.jpg" class="chat__message_avatar">
+            <div class="chat__received_message_center">
+                <h3 class="chat__message_friend">Yuna</h3>
+                <span class="chat__message_body">And this is an answer.</span>
             </div>
-            <span class="message_time">17:58</span>
+            <span class="chat__message_time">17:58</span>
         </div>
     </main>
     <div class="type_message">
-        <i class="fa fa-plus fa-2x"></i>
+        <i class="fa fa-plus fa-lg"></i>
         <div class="type_message_input">
             <input type="text">
-            <i class="far fa-smile"></i>
+            <i class="far fa-smile fa-lg"></i>
         </div>
         <div class="voice_call">
-            <i class="fas fa-microphone"></i>
+            <i class="fas fa-microphone fa-lg"></i>
         </div>
     </div>
 </body>
-
 </html>
